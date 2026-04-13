@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form for regestration</title>
+</head>
+<body>
+    <form action="">
+        <h1>prepare your next trip with me</h1>
+        <p>please take a momment to get in touch</p>
+        <div class="culom">
+            <div><label for="name">full name</label>
+            <input type="text" name="name" id="name" required></div>
+
+            
+            <div><label for="email">email</label>
+            <input type="text" name="email" id="email" required placeholder="please enter your email"></div>
+
+            
+            <div><label for="phone">phone number</label>
+            <input type="tel" name="phone" id="phone" required></div>
+            <div>
+                <label >gender</label>
+                <div><input type="radio" name="gender" id="male" value="male">
+                <label for="male" class="inlinelabel">male </label>
+                </div>
+                 <div><input type="radio" name="gender" id="female" value="female">
+                <label for="female" class="inlinelabel">female </label>
+                </div>
+                
+            </div>
+            <div><label for="date">arriving date</label>
+            <input type="date" name="date" id="date"></div>
+            <div><label for="date">depature date</label>
+            <input type="date" name="date" id="date"></div>
+            <div>
+                <label for="cities">where would you like to travel</label>
+                <select name="cities" id=" cities">
+                    <option value="">choose</option>
+                    <option value="luxor">luxor</option>
+                    <option value="aswan">aswan</option>
+                    <option value="cairo">cairo</option>
+                </select>
+            </div>
+            <div><label for="passport">passport</label>
+            <input type="file" id="passport" name="passport">
+            </div>
+            <div class="culom">
+                <div>
+                    <label >please check sevices you nead</label>
+                    <div><input type="checkbox" name="airline tickets" id="airline tickets">
+                    <label for="airline tickets" class="inlinelabel">airline tickets</label></div>
+                    <div><input type="checkbox" name="car" id="car">
+                    <label for="car" class="inlinelabel">car</label></div>
+                    <div><input type="checkbox" name="hotel" id="hotel">
+                    <label for="hotel" class="inlinelabel">hotel</label></div>
+   <video autoplay loop  id="bg-video">
+  <source src="32945-395456395_medium (1).mp4" type="video/mp4">
+</video>
+
+                    
+
+                </div>
+                <textarea name="notes" id="notes" placeholder="write your notes"></textarea><br>
+
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </div>
+        </div>
+    </form>
+</body>
+</html>
